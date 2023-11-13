@@ -1,0 +1,26 @@
+# entra na pasta token 
+npm init -y
+
+# entra na pasta token instalar TS
+npm i -D typescript
+npx tsc --init
+
+# Testa conversao do TS
+npx tsc 
+
+# Instalar o TSuP
+npm i tsup -D 
+npm run  build
+npm run  dev
+ npm run lint
+
+npm i -D react @types/react  @types/react-dom
+
+# stiches CSS
+npm i @stitches/react
+
+# storybook
+npx sb init --builder @storybook/builder-vite@0.2.3 --type react --use-npm
+
+
+(Usar nvm use 16.17.0)

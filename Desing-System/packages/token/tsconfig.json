@@ -1,4 +1,0 @@
-{
-  "extends":"@inginte-ui/ts-config/base.json",
-  "include": ["src"]
-}
